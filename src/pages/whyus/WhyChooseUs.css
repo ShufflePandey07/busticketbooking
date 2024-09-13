@@ -1,0 +1,72 @@
+.why-choose-us-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .why-choose-us-image {
+    flex: 1;
+    position: relative;
+  }
+  
+  .why-choose-us-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #ff6b35;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .why-choose-us-content {
+    flex: 1;
+    padding-left: 40px;
+  }
+  
+  .subtitle {
+    color: #ff6b35;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .description {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6b35;
+    display: block;
+  }
+  
+  .stat-label {
+    font-size: 14px;
+    color: #666;
+  }

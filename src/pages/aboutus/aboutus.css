@@ -1,0 +1,94 @@
+.about-shuttle-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-shuttle-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .subtitle {
+    color: #ff6b35;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .description {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .features-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .features-list li {
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  .features-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #ff6b35;
+  }
+  
+  .more-about-us {
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .about-shuttle-images {
+    flex: 1;
+    position: relative;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .experience-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .years {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6b35;
+    display: block;
+  }
+  
+  .text {
+    font-size: 14px;
+    color: #666;
+  }
